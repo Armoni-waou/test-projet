@@ -1,20 +1,13 @@
 import streamlit as st
 import pandas as pd
 
-st.header("L'appli de Cataclop aka Lise")
+st.title("La Fin du monde Approche !")
 
-st.header("Voici une petite demonstation de mes talents")
-
-
-nombres = [1, 2, 3, 4, 5]
-carré = [1**2, 2**2, 3**2, 4**2, 5**2]
-d = {"nombres":nombres, "carré":carré}
-data = pd.DataFrame(d)
-
-st.header("n'hesitez pas aller voir l'appli de Romain : https://bonjourre-tousses.streamlit.app/")
+st.text("Bienvenu champion")
+st.text("Je m'appelle Merlin, es tu prêt pour la plus grande quête de ta vie ?")
 
 
-st.header("attention aux espions")
-st.header("Si vous vous sentez observé, ce qui va suivre vous serra utile")
 
-st.write(data)
+st.text("n'hesitez pas aller voir l'appli de Lise : https://bonjourre-tousses.streamlit.app/")
+
+
