@@ -11,8 +11,7 @@ carré = [1**2, 2**2, 3**2, 4**2, 5**2]
 d = {"nombres":nombres, "carré":carré}
 data = pd.DataFrame(d)
 
-st.header("n'hesitez pas aller voir l'appli de Romain : 
-https://bonjourre-tousses.streamlit.app/")
+st.header("n'hesitez pas aller voir l'appli de Romain : https://bonjourre-tousses.streamlit.app/")
 
 
 st.header("attention aux espions")
